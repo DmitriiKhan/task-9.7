@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+}
+
+/* главная страница */
+.header-title {
+    text-align: center;
+    margin: 20px 0px 20px 0px;
+}
+
+/* body {
+    height: 100%;
+    background: linear-gradient(90deg, rgba(169,99,217,.8) 0%, rgba(208,61,165,.8) 50%, rgba(204, 115, 42, 0.8) 100%);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+} */
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+}
+
+.menu a {
+        background-color: #eee;
+        color: black;
+        display: block;
+        padding: 12px;
+        text-decoration: none;
+        text-align: center;
+        border-style:double;
+}
+
+.menu a:hover {
+    background-color: #ccc;
+}
